@@ -1,0 +1,114 @@
+
+.navbar{
+    background-color: #f5eec2;
+    box-shadow: #39395f 0px 3px 2px;
+}
+
+.navbar-brand h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2em;
+    margin-top: 15px;
+    color: #416a59;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+.nav-link span{
+    color: #73a24e;
+    font-size: 1.2em;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 800;
+}
+
+#red-list{
+    color: red;
+}
+
+.nav-link:hover {
+    background: #39395f;
+}
+
+#main-content{
+    background-color: #f5eec2;
+    padding-top: 125px;
+}
+
+#frame{
+    box-shadow: #39395f 0px 5px 4px;
+    width: 900px;
+}
+
+.page-content h2{
+    color: #416a59;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.page-content h3{
+    color: #416a59;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.page-content p{
+    color: #39395f;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .navbar-brand h1{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 1.5em;
+        font-weight: 500;
+        color: #416a59;
+    }
+    #frame{
+        box-shadow: #39395f 0px 5px 4px;
+        width: 900px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-brand h1{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 1.2em;
+        font-weight: 500;
+        color: #416a59;
+    }
+    #frame{
+        box-shadow: #39395f 0px 5px 4px;
+        width: 720px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar-brand h1{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 1.2em;
+        font-weight: 500;
+        color: #416a59;
+    }
+    #frame{
+        box-shadow: #39395f 0px 5px 4px;
+        width: 580px;
+    }
+}
+
+@media (max-width: 575px){
+    .navbar-brand h1{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 1.0em;
+        font-weight: 500;
+        color: #416a59;
+    }
+    #frame{
+        box-shadow: #39395f 0px 5px 4px;
+        width: 420px;
+    }
+}

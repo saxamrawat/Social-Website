@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Custom CSS Link-->
+    <link rel="stylesheet" href="index.css">
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="assets/fontawesome-free-6.2.1-web/css/all.css">
+    <!--Slab Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <!--Sofia Sans Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Endangered Wildlife</title>
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-lg">
+
+            <a class="navbar-brand " href="#">
+                <h1>Endangered Wildlife - A Major Crisis</h1>
+            </a>
+
+            <!--Navbar Toggler-->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-center " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span id="red-list"><i class="fa-solid fa-list-ol"></i><br
+                                    class="d-none d-md-block"> IUCN Red List</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span><i
+                                    class="fa-solid fa-list"></i><br class="d-none d-md-block">  List of
+                                Species</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span><i class="fa-solid fa-handshake-angle"></i><br
+                                    class="d-none d-md-block"> How to Help?</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--FrontPage-->
+    <section id="main-content">
+        <div class="container-lg">
+
+
+            <!--Carousel-->
+            <div id="frame" class="mx-auto">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/mainpage/pexels-rachel-claire-4577141.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>African Forest Elephant</h5>
+                                <p>Photo by Rachel Claire.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/mainpage/pexels-david-gonzales-2656647.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Orangutan</h5>
+                                <p>Photo by David Gonzales.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/mainpage/pexels-satya-deep-6690631.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Amur Leopard</h5>
+                                <p>Photo by Satya Deep.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+            <!--Page Content-->
+            <div class="page-content">
+                <div>
+                    <h2>What is an "Endangered Species"?</h2>
+                    <p>An endangered species is a species that is very likely to become extinct in the near future,
+                        either
+                        worldwide or in a particular political jurisdiction. Endangered species may be at risk due to
+                        factors such as habitat loss, poaching and invasive species. The International Union for
+                        Conservation of Nature (IUCN) Red List lists the global conservation status of many species, and
+                        various other agencies assess the status of species within particular areas. Many nations have
+                        laws that protect conservation-reliant species which, for example, forbid hunting, restrict land
+                        development, or create protected areas. Some endangered species are the target of extensive
+                        conservation efforts such as captive breeding and habitat restoration.
+
+                        Human activity is a significant cause in causing some species to become endangered.</p>
+                </div>
+                <div>
+                    <h2>Why does a species become endangered"?</h2>
+                    <p>Species become endangered for two main reasons: loss of habitat and loss of genetic variation.
+                    <h3>Loss of Habitat</h3>
+                    <p>
+                        A loss of habitat can happen naturally. Dinosaurs, for instance, lost their habitat about 65
+                        million years ago. The hot, dry climate of the Cretaceous period changed very quickly, most
+                        likely because of an asteroid striking the Earth. The impact of the asteroid forced debris into
+                        the atmosphere, reducing the amount of heat and light that reached Earth’s surface. The
+                        dinosaurs were unable to adapt to this new, cooler habitat. Dinosaurs became endangered, then
+                        extinct. <br>
+
+                        Human activity can also contribute to a loss of habitat. Development for housing, industry, and
+                        agriculture reduces the habitat of native organisms. This can happen in a number of different
+                        ways. <br>
+
+                        Development can eliminate habitat and native species directly. In the Amazon rain forest of
+                        South America, developers have cleared hundreds of thousands of acres. To “clear” a piece of
+                        land is to remove all trees and vegetation from it. The Amazon rain forest is cleared for cattle
+                        ranches, logging, and urban use. <br>
+
+                        Development can also endanger species indirectly. Some species, such as fig trees of the rain
+                        forest, may provide habitat for other species. As trees are destroyed, species that depend on
+                        that tree habitat may also become endangered. Tree crowns provide habitat in the canopy, or top
+                        layer, of a rainforest. Plants such as vines, fungi such as mushrooms, and insects such as
+                        butterflies live in the rain forest canopy. So do hundreds of species of tropical birds and
+                        mammals such as monkeys. As trees are cut down, this habitat is lost. Species have less room to
+                        live and reproduce. <br>
+
+                        Loss of habitat may happen as development takes place in a species range. Many animals have a
+                        range of hundreds of square kilometers. The mountain lion of North America, for instance, has a
+                        range of up to 1,000 square kilometers (386 square miles). To successfully live and reproduce, a
+                        single mountain lion patrols this much territory. Urban areas, such as Los Angeles, California,
+                        and Vancouver, British Columbia, Canada, grew rapidly during the 20th century. As these areas
+                        expanded into the wilderness, the mountain lion’s habitat became smaller. That means the habitat
+                        can support fewer mountain lions. Because enormous parts of the Sierra Nevada, Rocky, and
+                        Cascade mountain ranges remain undeveloped, however, mountain lions are not endangered. <br>
+
+                        Loss of habitat can also lead to increased encounters between wild species and people. As
+                        development brings people deeper into a species range, they may have more exposure to wild
+                        species. Poisonous plants and fungi may grow closer to homes and schools. Wild animals are also
+                        spotted more frequently. These animals are simply patrolling their range, but interaction with
+                        people can be deadly. Polar bears, mountain lions, and alligators are all predators brought into
+                        close contact with people as they lose their habitat to homes, farms, and businesses. As people
+                        kill these wild animals, through pesticides, accidents such as collisions with cars, or hunting,
+                        native species may become endangered.
+                    </p>
+
+                    <h3>Loss of Genetic Variation</h3>
+                    <p>
+                        Genetic variation is the diversity found within a species. It’s why human beings may have blond,
+                        red, brown, or black hair. Genetic variation allows species to adapt to changes in the
+                        environment. Usually, the greater the population of a species, the greater its genetic
+                        variation. <br>
+
+                        Inbreeding is reproduction with close family members. Groups of species that have a tendency to
+                        inbreed usually have little genetic variation, because no new genetic information is introduced
+                        to the group. Disease is much more common, and much more deadly, among inbred groups. Inbred
+                        species do not have the genetic variation to develop resistance to the disease. For this reason,
+                        fewer offspring of inbred groups survive to maturity. <br>
+
+                        Loss of genetic variation can occur naturally. Cheetahs are a threatened species native to
+                        Africa and Asia. These big cats have very little genetic variation. Biologists say that during
+                        the last ice age, cheetahs went through a long period of inbreeding. As a result, there are very
+                        few genetic differences between cheetahs. They cannot adapt to changes in the environment as
+                        quickly as other animals, and fewer cheetahs survive to maturity. Cheetahs are also much more
+                        difficult to breed in captivity than other big cats, such as lions. <br>
+
+                        Human activity can also lead to a loss of genetic variation. Overhunting and overfishing have
+                        reduced the populations of many animals. Reduced population means there are fewer breeding
+                        pairs. A breeding pair is made up of two mature members of the species that are not closely
+                        related and can produce healthy offspring. With fewer breeding pairs, genetic variation shrinks. <br>
+
+                        Monoculture, the agricultural method of growing a single crop, can also reduce genetic
+                        variation. Modern agribusiness relies on monocultures. Almost all potatoes cultivated, sold, and
+                        consumed, for instance, are from a single species, the Russet Burbank. Potatoes, native to the
+                        Andes Mountains of South America, have dozens of natural varieties. The genetic variation of
+                        wild potatoes allows them to adapt to climate change and disease. For Russet Burbanks, however,
+                        farmers must use fertilizers and pesticides to ensure healthy crops because the plant has almost
+                        no genetic variation. <br>
+
+                        Plant breeders often go back to wild varieties to collect genes that will help cultivated plants
+                        resist pests and drought, and adapt to climate change. However, climate change is also
+                        threatening wild varieties. That means domesticated plants may lose an important source of
+                        traits that help them overcome new threats.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <!--Script URL-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
