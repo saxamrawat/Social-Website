@@ -103,12 +103,12 @@
 @media (max-width: 575px){
     .navbar-brand h1{
         font-family: 'Alfa Slab One', cursive;
-        font-size: 1.0em;
+        font-size: 0.7em;
         font-weight: 500;
         color: #416a59;
     }
     #frame{
         box-shadow: #39395f 0px 5px 4px;
-        width: 420px;
+        width: 320px;
     }
 }
