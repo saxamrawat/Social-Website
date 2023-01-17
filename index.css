@@ -40,7 +40,7 @@
     width: 900px;
 }
 
-.page-content h2{
+.page-content h2.para-heading{
     color: #416a59;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -59,7 +59,34 @@
     font-size: large;
 }
 
+.accordion-item{
+    background-color: #f5eec2;
+    box-shadow: #39395f 0 2px 2px 2px;
+    margin-top: 30px;
+}
 
+.accordion-header button{
+    background-color: #f5eec2;
+}
+
+.acc-heading{
+    color: #416a59;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#iucn-heading{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: red;
+}
+
+.sub-heading{
+    color: #416a59;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
 
 @media (min-width: 992px) and (max-width: 1199px){
     .navbar-brand h1{
@@ -103,7 +130,7 @@
 @media (max-width: 575px){
     .navbar-brand h1{
         font-family: 'Alfa Slab One', cursive;
-        font-size: 0.7em;
+        font-size: 0.6em;
         font-weight: 500;
         color: #416a59;
     }
